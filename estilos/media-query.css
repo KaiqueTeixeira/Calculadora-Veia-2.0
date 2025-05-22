@@ -13,6 +13,10 @@
 /* Media Querry - Pequenas Telas */
 @media screen and (max-width: 600px) {
 
+    * {
+        box-sizing: border-box;
+    }
+
     /* TITULO E CABEÇALHO */
     header{
         font-size: 1.2em;
@@ -22,7 +26,7 @@
     /* PARTE PRINCIPAL */
     main {
         width: 100vw;
-        height: 100vh;
+        height: 100dvh;
         border-radius: 0px;
     }
 
@@ -30,6 +34,7 @@
     .box-num{
         height: 30px;
         width: 200px;
+        padding: 25px 25px 25px 16px
     }
 
     .part-mark{
@@ -45,12 +50,15 @@
     /* PARTE DOS BOTAO */
     .part-botao{
         padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
     }
 
     #b1, #b2{
         margin: 0px;
         padding: 0px;
-
     }
 
     /* PARTE DOS BOTAO */
