@@ -21,14 +21,19 @@
 
     /* PARTE PRINCIPAL */
     main {
-        width: 400px;
-        height: 700px;
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0px;
     }
 
     /* PARTE DE COLOCAR OS NÚMEROS */
     .box-num{
         height: 30px;
         width: 200px;
+    }
+
+    .part-mark{
+        padding-top: 10px;
     }
 
     /* PARTE DE MARCAR */
@@ -45,13 +50,12 @@
     #b1, #b2{
         margin: 0px;
         padding: 0px;
-        margin-bottom: 15px;
 
     }
 
     /* PARTE DOS BOTAO */
     #res{
-        margin-top: 20px;
+        margin-top: 35px;
     }
 }
 
