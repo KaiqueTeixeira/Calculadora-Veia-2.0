@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #422D6B;
+    --cor1: #573C8C;
+    --cor2: #6D4CB0;
+    --cor3: #815BD4;
+    --cor4: #9C6EFF;
+}
+
+/* TUDO E TODOS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #745EBB   ;
+}
+
+/* TITULO E CABEÇALHO */
+header{
+    text-align: center;
+    padding: 25px;
+    font-size: 1.5em;
+    color: white;
+}
+
+/* PARTE PRINCIPAL */
+main{
+    position: absolute;
+
+    height: 520px;
+    width: 650px;
+    text-align: center;
+    margin: auto;
+    background-color: var(--cor2);
+    border-radius: 10px;
+    background-color: #443580;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* PARTE DE COLOCAR OS NÚMEROS */
+main > div.part-num p{
+    padding-bottom: 10px;
+}
+
+.part-num{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.part-num p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.box-insert{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 100px;
+    text-align: center;
+}
+
+.box-num{
+    height: 35px;
+    width: 220px;
+    border-radius: 10px;
+    border: none;
+    padding: 8px 8px 8px 16px;
+    color: white;   
+    background-color: #201F4D;
+    font-size: 16px;
+}
+
+.box-num::placeholder{
+    color: #cccccc8a;
+    font-size: 16px;
+}
+
+.box-num:focus{
+    outline: none;
+}
+
+/* PARTE DE MARCAR */
+.part-mark{
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.mark{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    padding-right: 15px;
+}   
+
+.mark:hover{
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* PARTE DOS BOTAO */
+.part-botao{
+    padding-top: 30px;
+}
+
+.botao{
+    height: 60px;
+    width: 180px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    border: none;
+
+    transition: .3s;
+}
+
+#b1{
+    margin-right: 40px;
+    background-color: #262C8B;
+}
+
+#b2{
+    margin-left: 40px;
+    background-color: #6F5BB4;
+}
+
+.botao:hover{
+    cursor: pointer;
+}
+
+/* PARTE DO RESULTADO */
+
+#res{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 40px;
+}

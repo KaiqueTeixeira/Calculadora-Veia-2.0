@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Véia 2.0</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+
+    <main>
+
+        <header>
+            <h1>Calculadora Veía</h1>
+        </header>
+
+            <div class="part-num">
+                <p>
+                    <label for="inum1" class="box-insert" >Número 1: </label>
+                    <input type="number" name="num1" id="inum1" class="box-num" required placeholder="0123456789">
+                </p>
+                <p>
+                    <label for="inum2" class="box-insert" >Número 2: </label>
+                    <input type="number" name="num2" id="inum2" class="box-num" required placeholder="0123456789">
+                </p>
+            </div>
+
+            <div class="part-mark">
+                <p>
+                    <input type="radio" name="botao" id="isoma" checked>
+                    <label for="isoma" class="mark">Soma</label>
+                   
+                    <input type="radio" name="botao" id="isubt">
+                    <label for="isubt" class="mark">Subtração</label>
+                    
+                    <input type="radio" name="botao" id="imult">
+                    <label for="imult" class="mark">Multiplicação</label>
+                    
+                    <input type="radio" name="botao" id="idivisao">
+                    <label for="idivisao" class="mark">Divisão</label>
+                </p>
+            </div>
+
+            <p class="part-botao">
+                <input type="button" value="Verficiar" class="botao" id="b1" onclick="calcular()">
+                <input type="button" value="Limpar" class="botao" id="b2" onclick="limpar()">
+            </p>
+
+        <div id="res">
+
+            Preencha os dados acima
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
