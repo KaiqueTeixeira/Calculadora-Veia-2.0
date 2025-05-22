@@ -18,7 +18,6 @@
     }
 
     html, body {
-        height: 100%;
         background-color: #745EBB
     }
 
@@ -34,7 +33,7 @@
         width: 100dvw;
         min-height: 100dvh;
         border-radius: 0px;
-        padding-bottom: 25px;
+        padding-bottom: 50px;
     }
 
     /* PARTE DE COLOCAR OS NÚMEROS */
