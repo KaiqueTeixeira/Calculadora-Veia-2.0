@@ -18,4 +18,8 @@ Uma calculadora simples e estilizada feita com HTML, CSS e JavaScript, que reali
 
 ## 📸 Interface
 
-![Interface da Calculadora]()
+![Interface da Calculadora](https://kaiqueteixeira.github.io/Calculadora-Veia-2.0/Interface/Interface.png)
+
+## 👨‍💻 Feito por
+- Github - https://github.com/kaiqueteixeira <br>
+- Instagram - https://www.instagram.com/_kt.figura
