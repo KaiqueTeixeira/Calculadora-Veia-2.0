@@ -2,7 +2,8 @@
 
 Uma calculadora simples e estilizada feita com HTML, CSS e JavaScript, que realiza operações matemáticas básicas: soma, subtração, multiplicação e divisão. Ideal para estudos ou demonstrações de lógica e design de interface.
 
-🔗 Projeto online: [Clique aqui para acessar](https://kaiqueteixeira.github.io/Calculadora-Veia-2.0/)
+🔗 Projeto online: [Clique aqui para acessar](https://kaiqueteixeira.github.io/Calculadora-Veia-2.0/) <br>
+📱 Totalmente responsiva para dispositivos móveis
 
 # 🚀 Funcionalidades
 - Inserção de dois números
@@ -10,6 +11,7 @@ Uma calculadora simples e estilizada feita com HTML, CSS e JavaScript, que reali
 - Botão para Verificar o resultado
 - Botão para Limpar os campos
 - Mensagem de validação caso os campos não estejam preenchidos corretamente
+- Interface responsiva para diferentes tamanhos de tela
 
 # 💻 Tecnologias Utilizadas
 - HTML5
@@ -19,6 +21,15 @@ Uma calculadora simples e estilizada feita com HTML, CSS e JavaScript, que reali
 ## 📸 Interface
 
 ![Interface da Calculadora](https://kaiqueteixeira.github.io/Calculadora-Veia-2.0/Interface/Interface.png)
+
+## 📚 Aprendizados
+Neste projeto, pude:
+- Aprofundar o uso de manipulação do DOM com JavaScript
+- Utilizar validações para entradas de dados
+- Compreender melhor a estrutura de um projeto web
+- Melhorar a organização e clareza do código
+- Adicionar **responsividade com media queries**
+- Praticar o design centrado no usuário (UI simples e intuitiva)
 
 ## 👨‍💻 Feito por
 - Github - https://github.com/kaiqueteixeira <br>
