@@ -17,12 +17,9 @@
         box-sizing: border-box;
     }
 
-    *, *::before, *::after {
-        box-sizing: border-box;
-    }
-
     html, body {
         background-color: #443580;
+        padding-bottom: 150px;
     }
 
     /* TITULO E CABEÇALHO */
@@ -36,7 +33,6 @@
     main {
         width: 100vw;
         height: 100dvh;
-        box-sizing: border-box;
         padding-bottom: 150px;
         background-color: #443580;
 
@@ -51,6 +47,7 @@
     }
 
     .part-mark{
+        padding: 0px;
         padding-top: 10px;
     }
 
