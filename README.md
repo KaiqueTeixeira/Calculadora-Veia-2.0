@@ -3,7 +3,7 @@
 Uma calculadora simples e estilizada feita com HTML, CSS e JavaScript, que realiza operações matemáticas básicas: soma, subtração, multiplicação e divisão. Ideal para estudos ou demonstrações de lógica e design de interface.
 
 🔗 Projeto online: [Clique aqui para acessar](https://kaiqueteixeira.github.io/Calculadora-Veia-2.0/) <br>
-📱 Totalmente responsiva para dispositivos móveis
+📱 Totalmente responsivo para dispositivos móveis
 
 # 🚀 Funcionalidades
 - Inserção de dois números
