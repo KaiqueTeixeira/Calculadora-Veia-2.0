@@ -19,6 +19,7 @@
 
     html, body {
         background-color: #443580;
+        height: 100%;
     }
 
     /* TITULO E CABEÇALHO */
@@ -31,7 +32,7 @@
     /* PARTE PRINCIPAL */
     main {
         width: 100vw;
-        min-height: 100dvh;
+        height: 100dvh;
         background-color: #443580;
         border-radius: 0px;
     }
