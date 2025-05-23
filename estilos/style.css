@@ -112,6 +112,10 @@ main > div.part-num p{
     cursor: pointer;
 }
 
+input[type="radio"] {
+    accent-color: var(--cor3);
+}
+
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
