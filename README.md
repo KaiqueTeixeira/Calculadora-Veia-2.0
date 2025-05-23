@@ -18,10 +18,6 @@ Uma calculadora simples e estilizada feita com HTML, CSS e JavaScript, que reali
 - CSS3
 - JavaScript
 
-## 📸 Interface
-
-![Interface da Calculadora](https://kaiqueteixeira.github.io/Calculadora-Veia-2.0/Interface/Interface.png)
-
 ## 📚 Aprendizados
 Neste projeto, pude:
 - Aprofundar o uso de manipulação do DOM com JavaScript
@@ -30,6 +26,14 @@ Neste projeto, pude:
 - Melhorar a organização e clareza do código
 - Adicionar **responsividade com media queries**
 - Praticar o design centrado no usuário (UI simples e intuitiva)
+
+## 📸 Interface Telas
+<img src="https://kaiqueteixeira.github.io/Calculadora-Veia-2.0/Interface/Interface-pc.png" alt="Interface PC" />
+  
+## 📸 Interface Celular
+<div align="center">
+  <img src="https://kaiqueteixeira.github.io/Calculadora-Veia-2.0/Interface/Interface-celular.png" alt="Interface Celular" />
+</div>
 
 ## 👨‍💻 Feito por
 - Github - https://github.com/kaiqueteixeira <br>
